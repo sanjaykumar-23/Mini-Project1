@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portify | Portfolio Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Portify</div>
+        <nav>
+            <ul>
+                <li><a href="#builder">Builder</a></li>
+                <li><a href="#preview">Preview</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to <span class="highlight">Portify</span></h1>
+        <p>Create your portfolio instantly using our easy builder tool.</p>
+        <a href="#builder"><button>Start Building</button></a>
+    </section>
+
+    <section id="builder">
+        <h2>Portfolio Builder</h2>
+        <form id="portfolioForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <textarea id="about" placeholder="About You" required></textarea>
+            <input type="text" id="skills" placeholder="Skills (comma separated)" required>
+            <input type="text" id="project1" placeholder="Project 1 Title">
+            <input type="text" id="project2" placeholder="Project 2 Title">
+            <button type="submit">Generate Portfolio</button>
+        </form>
+    </section>
+
+    <section id="preview">
+        <h2>Portfolio Preview</h2>
+        <div id="output" class="preview-box">
+            <p>Fill in the form to generate your portfolio preview.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Portify | Portfolio Builder</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
